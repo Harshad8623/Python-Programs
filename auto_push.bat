@@ -1,29 +1,21 @@
 @echo off
-cd /d "C:\Users\harshad Dhuppe\Python Programs"
+title Auto Push GitHub
 
 echo ==============================
 echo Uploading to GitHub...
 echo ==============================
 
+cd /d "C:\Users\harshad Dhuppe\Python Programs"
+
 git add .
 
-git diff --cached --quiet
-if %errorlevel%==0 (
-    echo No changes to commit.
-    pause
-    exit /b
-)
+git commit -m "Auto update"
 
-set msg=Auto-update on %date% at %time%
-git commit -m "%msg%"
-
-echo Pulling latest changes...
-git pull origin main --rebase
-
-echo Pushing to GitHub...
 git push origin main
 
+echo.
 echo ==============================
-echo Upload Complete!
+echo Push Complete!
 echo ==============================
+
 pause
