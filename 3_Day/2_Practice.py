@@ -36,7 +36,6 @@ print(count_digits(1234))
 
 
 
-
 # Method 4 : Using Recursion
 def count_digits(n):
     n = abs(n)
