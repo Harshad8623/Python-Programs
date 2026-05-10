@@ -83,3 +83,49 @@ Example:25
 25^2=625
 Ends with 25.
 
+3. Harshad (Niven) Number : A number divisible by sum of its digits.
+Example : 18
+1+8=9
+18÷9=2
+
+4. Frequency of All Digits
+
+Example:
+122333
+Output:
+1 → 1 times
+2 → 2 times
+3 → 3 times
+
+
+5. Convert Number to Binary
+
+
+6. Remove Last Digit
+
+
+7. Extract First Digit
+
+
+8. Swap First and Last Digit
+Example:
+12345 → 52341
+
+
+9. Check Duck Number
+Duck Number : Contains 0 but not at beginning.
+Example : 1203
+
+
+10. Decimal to Octal / Hexadecimal
+
+
+Final Master Formula Almost every number problem is one of these:
+
+digit = n % 10
+n = n // 10
+
+or
+
+while n >= 10:
+    n = n // 10
