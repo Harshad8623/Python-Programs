@@ -129,3 +129,264 @@ or
 
 while n >= 10:
     n = n // 10
+
+
+-------------------------20 Important Number-Based DSA Questions-------------------
+
+(Level: TCS Prime / Infosys / Deloitte / Accenture / Cognizant Coding Rounds)
+
+These questions are exactly the type used to test:
+
+loops
+logic building
+digit extraction
+dry run ability
+edge cases
+
+Start from easy → medium.
+
+Easy Level
+1. Count Digits
+
+Input:
+12345
+
+Output:
+5
+
+2. Sum of Digits
+
+Input:
+1234
+
+Output:
+10
+
+3. Product of Digits
+
+Input:
+123
+
+Output:
+6
+
+4. Reverse a Number
+
+Input:
+12345
+
+Output:
+54321
+
+5. Check Palindrome Number
+
+Input:
+121
+
+Output:
+Palindrome
+
+6. Find Largest Digit
+
+Input:
+58291
+
+Output:
+9
+
+7. Find Smallest Digit
+
+Input:
+58291
+
+Output:
+1
+
+8. Count Even and Odd Digits
+
+Input:
+123456
+
+Output:
+Even = 3
+Odd = 3
+
+9. Sum of Even Digits
+
+Input:
+123456
+
+Output:
+12
+
+10. Count Occurrence of Specific Digit
+
+Input:
+122232, digit = 2
+
+Output:
+4
+
+Medium Level
+11. Armstrong Number
+
+Input:
+153
+
+Output:
+Armstrong Number
+
+12. Strong Number
+
+Input:
+145
+
+Output:
+Strong Number
+
+13. Harshad Number
+
+Input:
+18
+
+Output:
+Harshad Number
+
+14. Neon Number
+
+Input:
+9
+
+Output:
+Neon Number
+
+15. Spy Number
+
+Input:
+123
+
+Output:
+Spy Number
+
+Placement-Level Variations
+16. Frequency of All Digits
+
+Input:
+1223334444
+
+Output:
+1 → 1
+2 → 2
+3 → 3
+4 → 4
+
+17. Find First and Last Digit
+
+Input:
+58291
+
+Output:
+First = 5
+Last = 1
+
+18. Swap First and Last Digit
+
+Input:
+12345
+
+Output:
+52341
+
+(HIGHLY ASKED)
+
+19. Convert Decimal to Binary
+
+Input:
+10
+
+Output:
+1010
+
+20. Check Automorphic Number
+
+Input:
+25
+
+Output:
+Automorphic Number
+
+BONUS COMPANY-TYPE QUESTIONS
+
+These are very common in online assessments.
+
+21. Check Duck Number
+
+Contains 0 but not at start.
+
+Example:
+1203 → Duck Number
+
+22. Remove Repeated Digits
+
+Input:
+122333
+
+Output:
+123
+
+23. Find Second Largest Digit
+
+Input:
+58291
+
+Output:
+8
+
+24. Check Perfect Number
+
+Example:
+6
+
+1+2+3=6
+25. Find Number of Zeros in Number
+
+Input:
+1020300
+
+Output:
+4
+
+MOST IMPORTANT FOR TCS / Infosys
+
+Focus heavily on these:
+
+✅ Reverse Number
+✅ Palindrome
+✅ Armstrong
+✅ Frequency Count
+✅ Largest Digit
+✅ Sum of Digits
+✅ Binary Conversion
+✅ Swap Digits
+✅ Strong Number
+✅ Even/Odd Digits
+
+These are VERY frequently used as:
+
+direct questions
+hidden inside larger questions
+building blocks of aptitude coding
+Recommended Practice Order
+
+Practice in this order:
+
+Count digits
+Sum digits
+Reverse number
+Palindrome
+Largest digit
+Frequency count
+Armstrong
+Strong number
+Binary conversion
+Swap first/last digit
