@@ -67,3 +67,19 @@ while n > 0:
     digit = n % 10
     # process digit
     n = n // 10
+
+
+Some other Important
+
+1. Check Neon Number
+Neon Number : Sum of digits of square = original number
+Example: 9
+9^2=81
+8+1=9
+
+2. Check Automorphic Number
+Automorphic Number : Number whose square ends with same number.
+Example:25
+25^2=625
+Ends with 25.
+
