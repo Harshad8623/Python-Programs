@@ -15,7 +15,7 @@ print("Generated OTP:", otp)
 # Another Simple way using random module
 import random
 otp_length = int(input("Enter the length of the OTP: "))
-otp = ''.join(random.choices('0123456789', k=otp_length))
+otp = ''.join(random.choices('0123456789', k=otp_length))  # random.choices() returns a list of k elements chosen from the population. We need to join the list to get the OTP as a string.
 print("Generated OTP:", otp)
 
 
@@ -37,7 +37,7 @@ class OTPGenerator:
         digits = "0123456789"
         otp = ""
         for _ in range(self.length):
-            otp += random.choice(digits)
+            otp += random.choice(digits) # random.choice() returns a random element from the non-empty sequence. We need to concatenate the chosen digit to the otp string in each iteration.
         return otp
 otp_length = int(input("Enter the length of the OTP: "))
 otp_generator = OTPGenerator(otp_length)
